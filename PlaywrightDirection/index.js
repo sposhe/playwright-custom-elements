@@ -1,4 +1,4 @@
-import { PlaywrightElement } from './PlaywrightElement.js'
+import { PlaywrightElement } from './../PlaywrightElement'
 class PlaywrightDirection extends PlaywrightElement {
   constructor() {
     let role = 'emphasis'

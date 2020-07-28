@@ -1,8 +1,8 @@
-import { PlaywrightElement   } from './elements/PlaywrightElement.js'
-import { PlaywrightDirection } from './elements/PlaywrightDirection.js'
-import { PlaywrightPersona   } from './elements/PlaywrightPersona.js'
-import { PlaywrightSpeaker   } from './elements/PlaywrightSpeaker.js'
-import { PlaywrightDialog    } from './elements/PlaywrightDialog.js'
+import { PlaywrightElement   } from './PlaywrightElement'
+import { PlaywrightDirection } from './PlaywrightDirection'
+import { PlaywrightPersona   } from './PlaywrightPersona'
+import { PlaywrightSpeaker   } from './PlaywrightSpeaker'
+import { PlaywrightDialog    } from './PlaywrightDialog'
 
 customElements.define('pw-element',   PlaywrightElement)
 customElements.define('pw-direction', PlaywrightDirection)
