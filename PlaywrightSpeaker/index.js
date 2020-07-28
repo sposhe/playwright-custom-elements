@@ -1,8 +1,9 @@
 import { PlaywrightElement } from './../PlaywrightElement'
 class PlaywrightSpeaker extends PlaywrightElement {
   constructor() {
-    let role = 'emphasis'
-    let styles = `
+    const name = 'speaker'
+    const role = 'emphasis'
+    const styles = `
       :host(*) {
         display: inline;
         box-sizing: border-box;
@@ -14,7 +15,7 @@ class PlaywrightSpeaker extends PlaywrightElement {
         content: ':'
       }
     `
-    super({ role, styles })
+    super({ name, role, styles })
   }
 }
 export { PlaywrightSpeaker }

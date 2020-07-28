@@ -1,6 +1,7 @@
 class PlaywrightElement extends HTMLElement {
-  constructor({ role = 'none', styles = ':host(*) { display: block; }' }) {
+  constructor({ name = 'element', role = 'none', styles = ':host(*) { display: block; }' }) {
     super()
+    this.dataset.playwright = name
     this.setAttribute('role', role)
     const fragment = document.createDocumentFragment()
     const slot = document.createElement('slot')

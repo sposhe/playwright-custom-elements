@@ -1,18 +1,19 @@
 import { PlaywrightElement } from './../PlaywrightElement'
 class PlaywrightPersona extends PlaywrightElement {
   constructor() {
-    let role = 'emphasis'
-    let styles = `
+    const name = persona
+    const role = 'emphasis'
+    const styles = `
       :host(*) {
         display: inline;
         box-sizing: border-box;
         font-weight: 600;
       }
-      :host-context(pw-direction) {
+      :host-context([data-playwright='direction']) {
         font-style: normal;
       }
     `
-    super({ role, styles })
+    super({ name, role, styles })
   }
 }
 export { PlaywrightPersona }
