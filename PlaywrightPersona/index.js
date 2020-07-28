@@ -1,7 +1,7 @@
 import { PlaywrightElement } from './../PlaywrightElement'
 class PlaywrightPersona extends PlaywrightElement {
   constructor() {
-    const name = persona
+    const name = 'persona'
     const role = 'emphasis'
     const styles = `
       :host(*) {
