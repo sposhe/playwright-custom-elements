@@ -1,5 +1,5 @@
 class PlaywrightElement extends HTMLElement {
-  constructor(role = 'none', styles = ':host(*) { display: block; }') {
+  constructor({ role = 'none', styles = ':host(*) { display: block; }' }) {
     super()
     this.setAttribute('role', role)
     const fragment = document.createDocumentFragment()

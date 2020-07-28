@@ -14,7 +14,7 @@ class PlaywrightSpeaker extends PlaywrightElement {
         content: ':'
       }
     `
-    super(role, styles)
+    super({ role, styles })
   }
 }
 export { PlaywrightSpeaker }

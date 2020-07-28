@@ -9,7 +9,7 @@ class PlaywrightDialog extends PlaywrightElement {
         margin: 1em 0 1em 1em;
       }
     `
-    super(role, styles)
+    super({ role, styles })
   }
 }
 export { PlaywrightDialog }

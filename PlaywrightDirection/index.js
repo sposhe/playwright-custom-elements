@@ -24,7 +24,7 @@ class PlaywrightDirection extends PlaywrightElement {
         content: ')';
       }
     `
-    super(role, styles)
+    super({ role, styles })
   }
 }
 export { PlaywrightDirection }

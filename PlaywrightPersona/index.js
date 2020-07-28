@@ -12,7 +12,7 @@ class PlaywrightPersona extends PlaywrightElement {
         font-style: normal;
       }
     `
-    super(role, styles)
+    super({ role, styles })
   }
 }
 export { PlaywrightPersona }
