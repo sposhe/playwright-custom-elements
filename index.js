@@ -4,11 +4,11 @@ import { PlaywrightPersona   } from './elements/PlaywrightPersona.js'
 import { PlaywrightSpeaker   } from './elements/PlaywrightSpeaker.js'
 import { PlaywrightDialog    } from './elements/PlaywrightDialog.js'
 
-customElements.define('pw-element',   PlaywrightElement   )
-customElements.define('pw-direction', PlaywrightDirection )
-customElements.define('pw-persona',   PlaywrightPersona   )
-customElements.define('pw-speaker',   PlaywrightSpeaker   )
-customElements.define('pw-dialog',    PlaywrightDialog    )
+customElements.define('pw-element',   PlaywrightElement)
+customElements.define('pw-direction', PlaywrightDirection)
+customElements.define('pw-persona',   PlaywrightPersona)
+customElements.define('pw-speaker',   PlaywrightSpeaker)
+customElements.define('pw-dialog',    PlaywrightDialog)
 
 export {
   PlaywrightElement,
