@@ -10,6 +10,5 @@ coverage
 .lock-wscript
 build/Release
 node_modules
-docs/*
 secrets.*
 src/json
